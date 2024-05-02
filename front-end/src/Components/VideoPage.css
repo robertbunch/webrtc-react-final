@@ -1,0 +1,98 @@
+.videos{
+    position: absolute;
+}
+
+#remote-feed, #local-feed{
+    
+}
+
+#remote-feed{
+    height: 100vh;
+    width: 100vw;
+}
+
+#local-feed{
+    position: absolute;
+    z-index: 2;
+    right: 5%;
+    bottom: 10%;
+    width: 10%;
+}
+
+.call-info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #cacaca;
+    background-color: #222;
+    padding: 10px;
+    z-index: 5;
+}
+    
+.call-info h1{
+    color: white;
+}
+    
+#menu-buttons{
+    height: 80px;
+    width: 100%;
+    background-color: #333;
+    position: absolute;
+    bottom: -6px;
+    left: 11px;
+  }
+  
+  #menu-buttons .fa{
+    font-size: 24px;
+  }
+
+.button-wrapper, .button{
+    width: 100px;
+    height: 80px;
+    position: relative;
+}
+
+.button:hover{
+    position: relative;
+    background-color: #555;
+    cursor: pointer;
+}
+
+.button-wrapper i{
+    font-size:32px; 
+    color:#ccc;
+    position: absolute;
+    left: 35px;
+    top: 20px;
+}
+
+.button-wrapper i.fa-caret-up{
+    left: 75px;
+    top: 0px;
+    z-index: 100000;
+    padding: 5px;
+}
+
+.button-wrapper i.fa-caret-up:hover{
+    background-color: #555;
+    cursor: pointer;
+}
+
+.btn-text{
+    position: absolute;
+    bottom: 10px;
+    color: white;    
+    text-align: center;
+    width: 100%;
+  }
+
+.hangup-wrapper{
+    flex: auto;
+}
+
+.hang-up{
+    position: relative;
+    right: 10px;
+    top: 20px;
+}
